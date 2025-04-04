@@ -1,0 +1,239 @@
+body {
+    background: linear-gradient(135deg, #e0f7fa 0%, #b9fbc0 100%);
+}
+
+/* Hero Section */
+.hero {
+    background: url('../img/background/bg1.jpeg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.hero-content {
+    padding: 20px;
+    border-radius: 10px;
+    /* background: rgba(0, 0, 0, 0.5); */
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.hero-content:hover h1 {
+    transform: scale(1.1);
+    color: #2e4b4d;
+}
+
+.hero-content:hover p {
+    color: #2e4b4d;
+}
+
+/* Service Overview */
+.service-overview {
+    /* background-color: #2e4b4d; */
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.service-overview .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.overview-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.overview-icon {
+    flex: 1;
+    max-width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overview-icon i {
+    font-size: 3rem;
+    color: #ffcc00;
+}
+
+.overview-text-service {
+    flex: 2;
+    color: #2e4b4d;
+    max-width: 800px;
+}
+
+.overview-text-service h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #ffdd57;
+}
+
+.overview-text-service p {
+    font-size: 1.2rem;
+    color: #2e4b4d;
+    line-height: 1.6;
+}
+
+/* Services Section */
+.services {
+    /* background: linear-gradient(135deg, #e0f7fa 0%, #b9fbc0 100%); */
+    padding: 60px 20px;
+}
+
+.services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #2e4b4d;
+}
+
+.service-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service-item {
+    flex: 1;
+    max-width: 300px;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(186, 216, 152, 0.288);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.service-item i {
+    font-size: 3rem;
+    color: #ffcc00;
+    margin-bottom: 10px;
+}
+
+.service-item h3 {
+    font-size: 1.5rem;
+    color: #2e4b4d;
+    margin-bottom: 0.5rem;
+}
+
+.service-item p {
+    font-size: 1rem;
+    color: #2e4b4d;
+}
+
+.service-item:hover {
+    background-color: #e0f2f1;
+    transform: scale(1.05);
+}
+
+/* Service Benefits */
+/* Why Choose Us Section */
+.service-benefits {
+    /* background: linear-gradient(135deg, #e0f7fa 0%, #b9fbc0 100%); */
+    padding: 60px 20px;
+}
+
+.service-benefits h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #00695c;
+}
+
+.benefits-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.benefit-item {
+    flex: 1;
+    max-width: 300px;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 150, 136, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.benefit-item i {
+    font-size: 3rem;
+    color: #ffcc00;
+    margin-bottom: 10px;
+}
+
+.benefit-item h3 {
+    font-size: 1.5rem;
+    color: #004d40;
+    margin-bottom: 0.5rem;
+}
+
+.benefit-item p {
+    font-size: 1rem;
+    color: #004d40;
+}
+
+.benefit-item:hover {
+    background-color: #e0f2f1;
+    transform: scale(1.05);
+}
+
+/* FAQs */
+.faqs {
+    /* background-color: #fafafa; */
+    padding: 60px 20px;
+}
+
+.faqs h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #00695c;
+}
+
+.faq-items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.faq-item {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(186, 216, 152, 0.288);
+}
+
+.faq-item h3 {
+    font-size: 1.5rem;
+    color: #2e4b4d;
+    margin-bottom: 10px;
+}
+
+.faq-item p {
+    font-size: 1rem;
+    color: #2e4b4d;
+}

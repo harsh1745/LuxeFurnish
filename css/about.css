@@ -1,0 +1,245 @@
+body {
+    background: linear-gradient(135deg, #e0f7fa 0%, #b9fbc0 100%);
+}
+
+/* Hero Section */
+.hero {
+    background: url('../img/background/bg1.jpeg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.hero-content {
+    /* background: rgba(0, 0, 0, 0.5);  */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.hero-content:hover h1 {
+    transform: scale(1.1);
+    /* Slight zoom effect */
+    color: #2e4b4d;
+}
+
+.hero-content:hover p {
+    color: #2e4b4d;
+    /* Gold color */
+}
+
+/* Company Overview */
+/* Company Overview */
+.company-overview {
+    /* background-color: #2e4b4d; */
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.company-overview .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.overview-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    /* Gap between icon and text */
+    flex-wrap: wrap;
+}
+
+.overview-icon {
+    flex: 1;
+    max-width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overview-icon i {
+    font-size: 3rem;
+    color: #ffcc00;
+    /* Gold color for icon */
+}
+
+.overview-text {
+    flex: 2;
+    max-width: 800px;
+}
+
+.overview-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #ffdd57;
+}
+
+.overview-text p {
+    font-size: 1.2rem;
+    color: #2e4b4d;
+    line-height: 1.6;
+}
+
+
+/* Mission and Vision */
+.mission-vision {
+    /* background-color: #2e4b4d; */
+    padding: 60px 20px;
+}
+
+.mission-vision .container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* Gap between items */
+}
+
+.mission-vision h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #ffdd57;
+}
+
+.mission,
+.vision {
+    flex: 1;
+    max-width: 500px;
+    text-align: center;
+    padding: 30px;
+    border: 1px solid #e0e0e0;
+    /* Border */
+    border-radius: 10px;
+    background-color: #fafafa;
+    box-shadow: 0 4px 8px rgba(186, 216, 152, 0.288);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.mission p,
+.vision p {
+    font-size: 1rem;
+    color: #2e4b4d;
+}
+
+.mission:hover,
+.vision:hover {
+    background-color: #e0f2f1;
+    transform: scale(1.05);
+}
+
+/* Journey Section */
+/* Journey Section */
+.journey {
+    padding: 60px 20px;
+    /* background-color: #2e4b4d; */
+    position: relative;
+}
+
+.journey h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #ffdd57;
+}
+
+.journey .timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.journey .timeline::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 2px;
+    background-color: #ffcc00;
+    /* Gold color for timeline line */
+    transform: translateX(-50%);
+}
+
+.journey .event {
+    position: relative;
+    margin: 20px 0;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(186, 216, 152, 0.288);
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.journey .event:hover {
+    background-color: #e0f2f1;
+    transform: scale(1.05);
+}
+
+.journey .event .date {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffcc00;
+    /* Gold color for dates */
+    margin-bottom: 10px;
+}
+
+.journey .event .description {
+    font-size: 1rem;
+    color: #2e4b4d;
+}
+
+.journey .event .icon {
+    font-size: 2rem;
+    color: #ffcc00;
+    /* Gold color for icons */
+    margin-bottom: 10px;
+}
+
+
+
+/* Icons Styling */
+.iconnn {
+    font-size: 2rem;
+    color: #ffcc00;
+    /* Gold color for icons */
+    margin-bottom: 10px;
+}
+
+/* Company Overview */
+.company-overview .iconnn {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Mission and Vision */
+.mission-vision .iconnn {
+    font-size: 2rem;
+    color: #ffcc00;
+    /* Gold color for icons */
+    margin-bottom: 10px;
+}
+
+/* Team Section */
+.team .iconnn {
+    font-size: 2rem;
+    color: #ffcc00;
+    /* Gold color for icons */
+    margin-bottom: 10px;
+}
